@@ -1,0 +1,244 @@
+body {
+		margin:0px;
+		//padding-right: 11em;
+		font-family: Georgia, "Times New Roman",
+			Times, serif,Verdana;
+		color : white;
+		background: linear-gradient(black,#3366FF,#292933);
+		background-repeat:no-repeat;
+		background-size: 1500px 1500px;
+	 }
+		
+
+			
+	h1{
+		font: Georgia;
+		font-style:italic;
+		color: white;
+		font-size: 55;
+		height: 250px;
+		background-image:url("dinosaur.jpg");
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size: cover;
+		text-shadow: 0px 3px 0px #b2a98f,
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 34px 30px rgba(0,0,0,0.1);
+		
+		}
+	
+	ul.topnav{
+		
+		position: absolute;
+		top: 220px;
+		left: 389px;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}
+	
+	ul.topnav li{
+		float: left;
+	}
+	
+	ul.topnav a{
+		
+		display:block;
+		width:180px;
+		font-weight: bold;
+		color: white;
+		background-color: #003366;
+		text-align: center;
+		padding: 6px;
+		text-decoration: none;
+	}
+	
+	ul.topnav a:hover,a:active{
+		background-color: #194775;
+		text-shadow: 5px 5px 5px #000033; 
+	}
+	
+	ul.maintimeline{
+		
+		position: absolute;
+		top: 493px;
+		left: 69px;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}
+	
+	ul.maintimeline li{
+		float: left;
+		font-style: italic;
+		display:block;
+		width:322px;
+		font-weight: bold;
+		font-size: 30;
+		color:white;
+		//background-color: #000066;
+		text-align: center;
+		padding: 6px;
+		text-decoration: none;
+	}
+	
+	ul.maintimeline li:nth-child(1) {    background-color: blue; transition: background-color 1s, color 1s; }
+	ul.maintimeline li:nth-child(2) {    background-color: green; transition: background-color 1s, color 1s; }
+	ul.maintimeline li:nth-child(3) {    background-color: red; transition: background-color 1s, color 1s; }
+	
+	ul.maintimeline li:nth-child(1):hover,li:nth-child(1):active{
+		background-color: #99CCFF;
+		color: black;
+	}
+	
+	ul.maintimeline li:nth-child(2):hover,li:nth-child(2):active{
+		background-color: #66FF66;
+		color: black;
+	}
+	
+	ul.maintimeline li:nth-child(3):hover,li:nth-child(3):active{
+		background-color: #FF6666;
+		color: black;
+	}
+	
+	.navbar {
+		
+		color: black ;
+		font-size: 20;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 290px;
+		right: 28px;
+		width: 235px;
+		height: 800px;
+		background-color: #8AB8E6;
+	} 
+	
+	.navbar a{
+		
+		font-family: georgia;
+		margin-left: 14px;
+		color: #003366;
+		font-size: 19;
+		text-decoration: none;
+	
+	}
+	.navbar a:hover,a:active {
+		color: #336699;
+		text-shadow: 3px 3px 3px #64647C; 
+		font-style: italic;
+	}
+			
+	.navbar li {
+		background: white;
+		margin: 10px;
+		padding: 5px;
+		width: 150px;
+		margin-left: 20px;
+		border-right: 1em solid #003366 
+	}
+		
+	
+	.mainbackground{
+		
+		float: center;
+		margin-top: 40px;
+		margin-left: 25px;
+		width: 81em;
+		height: 50em;
+		background-color: #6699FF ;
+		box-shadow: 10px 10px 5px #1E2231;
+	}
+	
+	.maintext{
+	
+		font: Arial;
+		font-size: 35;
+		color: black;
+		margin-left: 70px;
+		margin-top: -720px;
+		
+	}
+		
+	.mainpicture{
+	
+		margin-top: -550px;
+		margin-left: 70px;
+		
+	}
+	
+	#triassicinfo{
+	
+		
+		//visibility: hidden;
+		color: white;
+		width:333px;
+		height:500px;
+		margin-left: 70px;
+		margin-top: 54px;
+		background-color: blue;
+		opacity: 0;
+		box-shadow: 4px 4px 2px #1E2231;
+	
+		
+	}
+	
+	#jurassicinfo{
+	
+		
+		//visibility: hidden;
+		color: white;
+		width:334px;
+		height:500px;
+		margin-left: 403px;
+		margin-top: -500px;
+		background-color: green;
+		opacity: 0;
+		box-shadow: 4px 4px 2px #1E2231;
+		
+		
+	}
+	
+	#cretaceousinfo{
+	
+		
+		//visibility: hidden;
+		color: white;
+		width:334px;
+		height:500px;
+		margin-left: 737px;
+		margin-top: -500px;
+		background-color: red;
+		opacity: 0;
+		box-shadow: 4px 4px 2px #1E2231;
+	
+		
+	}
+	
+	#picturetext{
+	
+		width:700px;
+		color: white;
+		font-style: italic;
+		font-size: 80;
+		opacity: 0.3;
+		margin-left: 245px;
+		margin-top: -320px;
+		text-shadow: 5px 5px 5px #000033; 
+		
+	}
+	
+	address {
+	
+	position: absolute;
+	background-color: #003366;
+	width: 100%;
+	height: 50px;
+    margin-top: 280px;
+    padding-top: 1em;
+   }

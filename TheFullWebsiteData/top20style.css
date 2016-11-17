@@ -1,0 +1,370 @@
+body {
+		margin:0px;
+		//padding-right: 11em;
+		font-family: Georgia, "Times New Roman",
+			Times, serif;
+		color : white;
+		background: linear-gradient(#0F0F2E,#3366FF,#292933);
+		background-repeat:no-repeat;
+		background-size: 1500px 4000px; }
+		
+			
+	h1{
+		font: Georgia;
+		font-style:italic;
+		color: white;
+		font-size: 55;
+		height: 250px;
+		background-image:url("dinosaur.jpg");
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size: cover;
+		text-shadow: 0px 3px 0px #b2a98f,
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 34px 30px rgba(0,0,0,0.1);
+		
+		}
+	
+	ul.topnav{
+		
+		position: absolute;
+		top: 220px;
+		left:  389px;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}
+	
+	ul.topnav li{
+		float: left;
+	}
+	
+	ul.topnav a{
+		
+		display:block;
+		width:180px;
+		font-weight: bold;
+		color: white;
+		background-color: #003366;
+		text-align: center;
+		padding: 6px;
+		text-decoration: none;
+	}
+	
+	ul.topnav a:hover,a:active{
+		background-color: #194775;
+		text-shadow: 5px 5px 5px #000033; 
+	}
+	
+	
+	.navbar {
+		
+		color: black ;
+		font-size: 20;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 290px;
+		right: 28px;
+		width: 235px;
+		height: 3152px;
+		background-color: #8AB8E6;
+	} 
+	
+	.navbar a{
+		
+		font-family: georgia;
+		margin-left: 14px;
+		color: #003366;
+		font-size: 19;
+		text-decoration: none;
+	
+	}
+	.navbar a:hover,a:active {
+		color: #336699;
+		text-shadow: 3px 3px 3px #64647C; 
+		font-style: italic;
+		}
+			
+	.navbar li {
+		background: white;
+		margin: 10px;
+		padding: 5px;
+		width: 150px;
+		margin-left: 20px;
+		border-right: 1em solid #003366 
+	}
+		
+	
+	.mainbackground{
+		
+		float: center;
+		margin-top: 40px;
+		margin-left: 25px;
+		width: 81em;
+		height: 197em;
+		background-color: #6699FF ;
+		box-shadow: 10px 10px 5px #1E2231;
+	}
+	
+	.maintext{
+	
+		font: Arial;
+		font-size: 35;
+		color: black;
+		margin-left: 70px;
+		margin-top: -3120px;
+		text-shadow: 0px 3px 0px #b2a98f,
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 34px 30px rgba(0,0,0,0.1);
+		
+	}
+	
+	
+	.mainborder1{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: -30px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder2{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder3{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder4{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder5{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder6{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder7{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder8{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder9{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 140px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder10{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 145px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder11{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder12{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder13{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder14{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder15{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder16{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder17{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder18{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder19{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	.mainborder20{
+		
+		height: 3px;
+		width:900px;
+		margin-left: 60px;
+		margin-top: 150px;
+		box-shadow: 10px 10px 10px #1E2231;
+	}
+	
+	
+	.numbersystem{
+		
+		color: #003366;
+		font: Georgia;
+		font-size: 66;
+		font-weight: bold;
+		margin-left: 80px;
+		margin-top:-2850px;
+		text-shadow: 2px 2px 10px #1F1F1F;  
+	
+	}
+	
+	.listoutput1{
+	
+		color: white;
+		font: georgia;
+		font-size: 43.5;
+		font-style: italic;
+		margin-left: 280px;
+		margin-top: -2995px;
+	
+	}
+	.listoutput2{
+	
+		color: white;
+		font: georgia;
+		font-size: 43.5;
+		font-style: italic;
+		margin-left: 280px;
+		margin-top: -15px;
+	}
+	.listoutput3{
+	
+		color: white;
+		font: georgia;
+		font-size: 43.5;
+		font-style: italic;
+		margin-left: 280px;
+		margin-top: 0px;
+	}
+	.voteslistoutput1{
+	
+		color: #003366;
+		font:georgia;
+		font-size: 33;
+		margin-left: 300px;
+		margin-top: -2975px;
+	}
+	.dinosaurlinkbutton{
+	
+		color: #003366;
+		font:georgia;
+		font-size: 33;
+		font-weight: bold;
+		margin-left: 850px;
+		margin-top: -3075px;
+		
+	}
+	.dinosaurlinkbutton a{
+	
+		color: #003366;
+		text-decoration: none;
+		text-shadow: 2px 2px 10px #1F1F1F; 
+	}
+	.dinosaurlinkbutton a:hover,a:active{
+	
+		color: white;
+		font-weight: bold;
+		text-decoration: none;
+		text-shadow: 2px 2px 10px #1F1F1F; 
+	}
+		
+	address {
+	
+	position: absolute;
+	background-color: #003366;
+	width: 100%;
+	height: 50px;
+    margin-top: -25px;
+    padding-top: 1em;
+   }

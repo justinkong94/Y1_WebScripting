@@ -1,0 +1,158 @@
+body {
+		margin:0px;
+		//padding-right: 11em;
+		font-family: Georgia, "Times New Roman",
+			Times, serif;
+		color : white;
+		background: linear-gradient(black,#3366FF,#292933);
+		background-repeat:no-repeat;
+		background-size: 1500px 1500px; }
+		
+			
+	h1{
+		font: Georgia;
+		font-style:italic;
+		color: white;
+		font-size: 55;
+		height: 250px;
+		background-image:url("dinosaur.jpg");
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size: cover;
+		text-shadow: 0px 3px 0px #b2a98f,
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 34px 30px rgba(0,0,0,0.1);
+		
+		}
+	
+	ul.topnav{
+		
+		position: absolute;
+		top: 220px;
+		left:  389px;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}
+	
+	ul.topnav li{
+		float: left;
+	}
+	
+	ul.topnav a{
+		
+		display:block;
+		width:180px;
+		font-weight: bold;
+		color: white;
+		background-color: #003366;
+		text-align: center;
+		padding: 6px;
+		text-decoration: none;
+	}
+	
+	ul.topnav a:hover,a:active{
+		background-color: #194775;
+		text-shadow: 5px 5px 5px #000033; 
+	}
+	
+	
+	.navbar {
+		
+		color: black ;
+		font-size: 20;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 290px;
+		right: 28px;
+		width: 235px;
+		height: 800px;
+		background-color: #8AB8E6;
+	} 
+	
+	.navbar a{
+		
+		font-family: georgia;
+		margin-left: 14px;
+		color: #003366;
+		font-size: 19;
+		text-decoration: none;
+	
+	}
+	.navbar a:hover,a:active {
+		color: #336699;
+		text-shadow: 3px 3px 3px #64647C; 
+		font-style: italic;
+		}
+			
+	.navbar li {
+		background: white;
+		margin: 10px;
+		padding: 5px;
+		width: 150px;
+		margin-left: 20px;
+		border-right: 1em solid #003366 
+	}
+		
+	
+	.mainbackground{
+		
+		float: center;
+		margin-top: 40px;
+		margin-left: 25px;
+		width: 81em;
+		height: 50em;
+		background-color: #6699FF ;
+		box-shadow: 10px 10px 5px #1E2231;
+	}
+	
+	.maintext{
+	
+		font: Arial;
+		font-size: 35;
+		color: black;
+		margin-left: 70px;
+		margin-top: -770px;
+		
+	}
+	
+	.dinosaurtimeline{
+	
+		margin-top: 30px;
+		margin-left: 250px;
+	}
+	
+	.maintext2{
+		
+		font: Arial;
+		font-size: 17;
+		color: black;
+		margin-left: 70px;
+		margin-top: 40px;
+	}
+	
+	.megalosaurus{
+	
+		margin-top: -115px;
+		margin-left: 865px;
+	}
+	
+	
+		
+	
+	
+	
+		
+	address {
+	
+	position: absolute;
+	background-color: #003366;
+	width: 100%;
+	height: 50px;
+    margin-top: 60px;
+    padding-top: 1em;
+   }

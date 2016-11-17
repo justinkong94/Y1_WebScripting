@@ -1,0 +1,39 @@
+PREREQUISITES
+--------------
+-table_1.sql must be loaded onto the database before loading the site
+-login username,password and hostname for the mysql database is located in the databaselogin.php file
+-I did not get the chance to test the website on Linux, whole development process took place on Xampp server
+
+
+SITE SUMMARY
+------------
+
+Home page -> The 3 dinosaur periods can be hovered over.On mouse hover, jquery is used to change the opacity of the text info 
+	     to make it appear. When the mouse cursor leaves, the text info fades back to 0 opacity.
+	  -> The side bar has 3 main aspects:
+		a) Interesting dinosaurs -> chooses a random number and picks a random dinosaur from th database, displaying
+					    the picture and name of the dinosaur. The name is dynamically linked to the 
+					    dinosaur's respective page.
+		b) Current Top List -> lists the top 10 voted dinosaurs from the database(more on that later)
+		c) Links -> Just some links
+
+Introduction page -> nothing much
+
+Top 20 page -> Lists the top 20 voted dinosaurs from the database along with number of votes and links to respective dinosaurs
+
+Encyclopedia page -> Sorts dinosaurs from the database based on selected sorting
+
+Timeline -> Just a picture
+
+Individual dinosaur pages -> I coded a single php file which can be used dynamically. The code reads the file name and
+				searches the database for that dinosaur based on the file name. All 330 php files in the
+				folder are identical except for their file names. The individual dinosaurs can be voted by
+				clicking the white star. Upon clicking the star, the database is updated in real time 
+				using jquery. The bonus info category cannot be viewed unless the dinosaur is voted.
+				The selecting of different dinosaur information is done using javascript. Finally, the 
+				similar dinosaurs is a search of the database based on the individual dinosaur's similar
+				diet, size range of -2.5 to 2.5 m of the dinosaur's size, and similar time period. All links
+				are functional as well. All these is achieved using the file name as a reference. Eg: 1.php,2.php
+
+A lot of time, work and effort has been put into this website. So eventhough it remains untested on the LAMP server, I hope
+that not too many marks are deducted if certain functionalities of the site does not work. Thank you! :) 
